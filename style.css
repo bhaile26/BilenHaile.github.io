@@ -1,0 +1,33 @@
+p {
+    background-color: rgb(118, 118, 146);
+    color: white;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+.box-1{
+    background-color: aquamarine;
+    color:rgb(221, 195, 195);
+    border-right: 5px pink solid;
+    border-left: 5px pink solid;
+    border-top: 5px pink solid;
+    border-bottom:5px pink solid;
+}
+
+.box-2{
+    border-right: 5px yellow solid;
+    border-left: 5px yellow solid;
+    border-top: 5px Green solid;
+    border-bottom:5px red solid;
+    padding:20px;
+    margin: 20px 0;
+    width: 40%;
+}
+
+header p {
+    background-color: red;
+}
+header nav .nav-items li > a:focus {
+    border-bottom: 1px solid #123456;
+}
