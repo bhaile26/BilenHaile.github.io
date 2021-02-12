@@ -25,6 +25,14 @@ p {
     width: 40%;
 }
 
+.flexItem {
+    margin-left: 5px;
+    padding: 11px;
+}
+.flexItem:first-child {
+    margin: 0;
+}
+
 header p {
     background-color: red;
 }
